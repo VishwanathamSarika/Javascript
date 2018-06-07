@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+<script>
+var x=window.prompt("enter number:");
+function reverse(y)
+{
+  var num=0;
+  while(y>0)
+{
+   rem=Math.floor(y%10);
+   
+   num=(num*10)+rem;
+   y=Math.floor(y/10);
+}
+document.write(num);
+}
+reverse(x);
+</script>
+
+</body>
+</html>

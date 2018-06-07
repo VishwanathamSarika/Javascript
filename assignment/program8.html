@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+<script>
+var str=window.prompt("enter string:");
+var arr=str.split(' ');
+var l=arr.length;
+var i;
+var newarr = [];
+for(var i = 0; i < l; i++)
+{
+      newarr.push(arr[i].charAt(0).toUpperCase()+arr[i].slice(1));
+}
+document.write(newarr.join(' '));
+</script>
+
+</body>
+</html>
